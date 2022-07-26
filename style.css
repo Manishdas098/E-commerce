@@ -49,12 +49,12 @@ left: 0;
 #navbar li a.active::after,
 #navbar li a:hover::after{
     content: "";
-    width: 30%;
+    width: 40%;
     height: 2px;
     position: absolute;
     bottom: -4px;
     background: #088178;
-    left:30px;
+    left:18px;
 }
 #hero{
     background-image: url(./img/hero4.png);
@@ -93,7 +93,7 @@ left: 0;
 font-weight: 100;
 color: #060606;
 }
-#hero button{
+#hero a{
     background-image:url(./img/button.png) ;
     background-color: transparent;
     color: #088178;
@@ -104,6 +104,7 @@ color: #060606;
     font-weight: 700;
     background-repeat: no-repeat;
     cursor: pointer;
+    text-decoration: none;
 
 }
 
